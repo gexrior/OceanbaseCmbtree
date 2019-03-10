@@ -1,0 +1,4 @@
+make test.o
+make log.o
+
+g++ test.o log.o -lpthread -o test
